@@ -1,0 +1,53 @@
+//--------------------------------------
+//--- 010 Editor v5.0 Binary Template
+//
+// File: Samsung TOC Template
+// © Copyright 2015/2016 Comsecuris UG
+//--------------------------------------
+
+struct TOC_header
+{
+    char Name[12];
+    unsigned int start;
+    unsigned int load_addr;
+    unsigned int size;
+    unsigned int unk2;
+    unsigned int id;
+};
+
+struct BOOT_img (unsigned int size)
+{
+    unsigned int preamble[8];
+    unsigned int rev;
+    unsigned int date;
+    unsigned int size;
+    unsigned int unk;
+    char hash_magic[4];
+    char sha512[64];
+    char code[size-512-64-4-4*4-8*4];
+    char signature[512];
+};
+
+struct MAIN_img (unsigned int size)
+{
+    char data[size];
+    unsigned int unk1;
+    char padding[12];
+    char signature[256];
+};
+
+SetForeColor( cRed);
+TOC_header toc_hdr;
+TOC_header boot_hdr;
+TOC_header main_hdr;
+TOC_header nv;
+TOC_header offset;
+
+FSeek(toc_hdr.size);
+SetForeColor(cBlue);
+BOOT_img boot(boot_hdr.size);
+
+FSeek(main_hdr.start);
+SetForeColor(cGreen);
+MAIN_img main(main_hdr.size);
+
