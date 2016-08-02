@@ -1,5 +1,5 @@
 #!/bin/bash
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 # this script relies on busybox being present
 
 CBD_PATH="/sbin/cbd"

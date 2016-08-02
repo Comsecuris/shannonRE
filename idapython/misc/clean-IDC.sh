@@ -1,5 +1,5 @@
 #!/bin/bash
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 
 IDC="$1"
 OIDC="$2"

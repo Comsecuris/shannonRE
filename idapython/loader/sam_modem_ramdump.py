@@ -1,4 +1,4 @@
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 import idaapi
 from idc import *
 import struct

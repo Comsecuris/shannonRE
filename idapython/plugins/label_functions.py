@@ -1,4 +1,4 @@
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 # The intention of this script is to come up with function labels based on strings within the binary
 # For this we use simple heuristics and back-tracing of function arguments
 import os

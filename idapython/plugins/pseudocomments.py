@@ -1,4 +1,4 @@
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 # this script can export comments from decompiled functions
 # and reapply them
 import idaapi

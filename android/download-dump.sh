@@ -1,5 +1,5 @@
 #!/bin/bash
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 # NOTE: this script relies on busybox being present
 # NOTE: also this script assumes that based on the call event a crash will
 # NOTE: happen. if you just want to use it to pull a ramdump

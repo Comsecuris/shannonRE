@@ -1,4 +1,4 @@
-# © Copyright 2015/2016 Comsecuris UG
+# (C) Copyright 2015/2016 Comsecuris UG
 '''
 
 Control Registers for ARM 7/9/A/R/M-series are different, have to be implemented separately.

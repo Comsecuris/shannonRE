@@ -2,7 +2,7 @@
 //--- 010 Editor v5.0 Binary Template
 //
 // File: Samsung TOC Template
-// © Copyright 2015/2016 Comsecuris UG
+// (C) Copyright 2015/2016 Comsecuris UG
 //--------------------------------------
 
 struct TOC_header
